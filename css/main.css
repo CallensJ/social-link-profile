@@ -38,6 +38,11 @@
   padding: 1rem 0;
   border-radius: 0.625rem;
 }
+.card__links .link:hover {
+  transition: 0.3s;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
 
 * {
   margin: 0;
