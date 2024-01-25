@@ -1,12 +1,10 @@
 @use "colors" as *;
 
 .card {
-  border: 2px solid red;
   text-align: center;
   padding: 2.188rem;
   background-color: $background-card;
   &__profile {
-    //border: 1px solid yellow;
     .card__profile--avatar {
       width: 5rem;
       height: 5rem;
