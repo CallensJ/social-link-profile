@@ -1,0 +1,65 @@
+.card {
+  border: 2px solid red;
+  text-align: center;
+  padding: 2.188rem;
+  background-color: hsl(0, 0%, 12%);
+}
+.card__profile .card__profile--avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.card__profile .userprofile__name {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+.card__profile .userprofile__location {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.938rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2.25rem;
+}
+.card__profile .userprofile__occupation {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+}
+.card__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.625rem;
+}
+.card__links .link {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  background-color: hsl(0, 0%, 20%);
+  margin-top: 0.938rem;
+  padding: 1rem 0;
+  border-radius: 0.625rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=main.css.map */

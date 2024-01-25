@@ -1,0 +1,23 @@
+@use "colors" as *;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+}
+
+body {
+  background-color: $background;
+}
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
